@@ -102,6 +102,7 @@ if f_e == 'S':
 print('Uploading local save to the cloud... OK')
 print('Deleting temporary files... OK')
 
+# Download the save file that was just uploaded to the computer if user wants to
 dlf = input('Download backup to local computer? (y/n)\n> ')
 
 if dlf == 'y':
